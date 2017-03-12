@@ -1,0 +1,16 @@
+{
+  "name": "Discord Bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "socket.io": "^1.7.3",
+    "winston": "^2.3.1"
+  }
+}
