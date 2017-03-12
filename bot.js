@@ -28,7 +28,7 @@ bot.on('ready', () => {
 bot.on('message', message => {
 	if (message.content.search(".help") === 0) {
 		let text = "aait, here's the commands:\n\n" 
-		+ ".quote:\n   Descrizione: Quota un messaggio (u don't say).\n   Usage: .quote testo da quotare\n          .quote 'utente' testo da quotare\n"
+		+ ".quote:\n   Descrizione: Quota del testo (u don't say).\n   Usage: .quote testo da quotare\n          .quote 'utente' testo da quotare\n"
 		+ ".play:\n   Descrizione: Cerca un video su youtube e ritorna il primo risultato.\n   Usage: .play nome video\n";
 		
 		let msg = "```" + text + "```" ;
